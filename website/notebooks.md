@@ -11,7 +11,6 @@ As a server-client application, Jupyter Notebook App allows you to edit and run 
 Its two main components are the kernels and a dashboard. While the kernel runs and instropsect the user's code, the dashboard show you the markdown documents.
 [Kernel and Dashboard](K_D.png)
 
-### Install 
 ### Functionality 
 To use the Jupyter notebook, you have to run the following command:
 > Jupyter notebook
@@ -38,4 +37,15 @@ You can find more markdown code by this [markdown cheatsheet](https://github.com
 
 ### Example
 
-# Lets add content
+1.)By using the Jupyter Notebook, you can combine your markdown explanation with a function doing all the real math for you.
+[PCA](PCA.png)
+One advantage of it is that you can go through different examples just by changing the variable in the function. Students can also use those function as a self-check tools or a caculator, while they solve the problem.
+
+2.)Also, Jupyter Notebook can provide you a new way of making plots with the programming language you like.
+[linear](linear.png)
+In this example, we're trying to apply a list of dataset into the linear regression. As you can see, you can plot the whole data and label everything you want just by coding few sentences. In fact, in this notebook you can make all the plots you want like heatmap, dotplot, and etc. Also, for all the instructors, you don't need to switch between your powerpoint and matlab any more.
+Tips: If you use python for you notebooks, matplotlib is a very useful class contain all those plots. [Here is the link](https://matplotlib.org/tutorials/index.html)
+
+3) What's more, you can make an assignment notebook by Jupyter Notebook.
+[assignment](assignment.png)
+By using this assignment, students can test their own skills of making heatmap. In fact, Instructors can use the jupyter notebook to make assignments among all the topics. Also, our upcoming grading system can give you a convinent experience while grading; students can immediately get the feedback once the instructor finished grading. A dataset including all student's grades will be made as well such that you don't need to collect all those data by yourself any more.
